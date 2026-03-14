@@ -83,6 +83,34 @@ Ctrl+a r
 
 These are my favorite tmux plugins. Feel free to find tmux plugins that suit your needs here: <https://github.com/tmux-plugins>
 
+#### Plugins Included
+
+| Plugin | Purpose |
+| --- | --- |
+| tmux-sensible | Sensible defaults |
+| tmux-resurrect | Restore sessions |
+| tmux-continuum | Automatic saving |
+| tmux-yank | Clipboard integration |
+| tmux-copycat | Regex search |
+| tmux-network-bandwidth | Network monitoring |
+| tmux-cpu | CPU usage indicator |
+| tmux-mighty-scroll | Improved scroll behavior |
+| tmux-menus | Popup menus |
+
+## Status Bar
+
+The status bar displays:
+
+- Hostname
+- Session
+- Window
+- Current directory
+- Network bandwidth
+- CPU usage
+- Current time
+
+### TMUX Customization
+
 Inside tmux, press the following to install plugins:
 
 ```shell
@@ -177,31 +205,6 @@ Mouse allows:
 - pane switching
 - scrolling
 
-## Plugins Included
-
-| Plugin | Purpose |
-| --- | --- |
-| tmux-sensible | Sensible defaults |
-| tmux-resurrect | Restore sessions |
-| tmux-continuum | Automatic saving |
-| tmux-yank | Clipboard integration |
-| tmux-copycat | Regex search |
-| tmux-network-bandwidth | Network monitoring |
-| tmux-cpu | CPU usage indicator |
-| tmux-mighty-scroll | Improved scroll behavior |
-| tmux-menus | Popup menus |
-
-## Status Bar
-
-The status bar displays:
-
-- Hostname
-- Session
-- Window
-- Current directory
-- Network bandwidth
-- CPU usage
-- Current time
 
 ## Performance Improvements
 
