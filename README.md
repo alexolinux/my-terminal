@@ -6,7 +6,9 @@ This is my favorite terminal multiplexer configuration using `tmux`.
 
 ## ⁉️ What is tmux?
 
-[Tmux (terminal multiplexer)](https://github.com/tmux/tmux/wiki) is a tool that lets you run multiple terminal sessions in one window. Key features:
+[Tmux (terminal multiplexer)](https://github.com/tmux/tmux/wiki) is a tool that lets you run multiple terminal sessions in one window. 
+
+Key features:
 
 - Split screen into panes/windows
 - Persistent sessions (survive SSH disconnects)
