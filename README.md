@@ -2,7 +2,7 @@
 
 -------------
 
-This is my Favorite Terminal Multiplexer Configuration using `tmux`.
+This is my favorite terminal multiplexer configuration using `tmux`.
 
 ## ⁉️ What is tmux?
 
@@ -32,7 +32,7 @@ The configuration emphasizes:
 
 ### 1 Install tmux
 
-Based RHEL Distros
+RHEL-based distros
 
 ```shell
 sudo dnf install tmux
@@ -73,17 +73,17 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 cp tmux.conf ~/.tmux.conf
 ```
 
-Reload configuration:
+Reload the configuration:
 
 ```shell
 Ctrl+a r
 ```
 
-### 4 My Installed plugins
+### 4 My installed plugins
 
-These are my favourite tmux plugins. Feel free to find tmux plugins that suit your needs here: <https://github.com/tmux-plugins>
+These are my favorite tmux plugins. Feel free to find tmux plugins that suit your needs here: <https://github.com/tmux-plugins>
 
-Inside tmux press the following to install plugins:
+Inside tmux, press the following to install plugins:
 
 ```shell
 Ctrl+a I
@@ -214,7 +214,7 @@ This configuration includes optimizations:
 
 ## Useful tmux Commands
 
-Create session
+Create a session
 
 ```shell
 tmux new -s dev
