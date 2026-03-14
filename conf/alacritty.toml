@@ -1,0 +1,190 @@
+# =========================
+# WSL Configuration
+# =========================
+
+#[terminal.shell]
+#program = "wsl.exe"
+#args = ["-d", "${WSL_DISTRO_NAME}", "--cd", "~"]
+
+# =========================
+# Environment
+# =========================
+
+[env]
+TERM = "xterm-256color"
+COLORTERM = "truecolor"
+
+# =========================
+# Window
+# =========================
+
+[window]
+opacity = 0.97
+decorations = "buttonless"
+padding = { x = 12, y = 10 }
+dynamic_padding = true
+resize_increments = true
+option_as_alt = "Both"
+
+# =========================
+# Scrolling
+# =========================
+
+[scrolling]
+history = 65000
+multiplier = 3
+
+# =========================
+# Font
+# =========================
+
+# Get Download: https://fonts.google.com/specimen/JetBrains+Mono
+[font]
+size = 14
+builtin_box_drawing = true
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+[font.offset]
+x = 0
+y = 1
+
+# =========================
+# Cursor
+# =========================
+
+# 'blinking' options: [ "Never", "Off", "On", "Always" ]
+[cursor]
+style = { shape = "Beam", blinking = "Always" }
+thickness = 0.15
+blink_interval = 500
+unfocused_hollow = true
+
+# =========================
+# Selection
+# =========================
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+# =========================
+# Mouse
+# =========================
+
+[mouse]
+hide_when_typing = true
+
+# =========================
+# Keybindings
+# =========================
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "F"
+mods = "Control|Shift"
+action = "SearchForward"
+
+[[keyboard.bindings]]
+key = "B"
+mods = "Control|Shift"
+action = "SearchBackward"
+
+[[keyboard.bindings]]
+key = "K"
+mods = "Control|Shift"
+action = "ClearHistory"
+
+[[keyboard.bindings]]
+key = "Equals"
+mods = "Control"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Minus"
+mods = "Control"
+action = "DecreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Key0"
+mods = "Control"
+action = "ResetFontSize"
+
+# =========================
+# URL handling
+# =========================
+
+[[mouse.bindings]]
+mouse = "Left"
+mods = "Control"
+action = "Open"
+
+# =========================
+# Colors (Cyberpunk Neon)
+# =========================
+
+[colors.primary]
+background = "#02050a" #"#070b10"
+foreground = "#e307df"
+
+[colors.cursor]
+text = "#070b10"
+cursor = "#00f7ff"
+
+[colors.selection]
+text = "CellForeground"
+background = "#203040"
+
+[colors.normal]
+black   = "#1b1f27"
+red     = "#ff005c"
+green   = "#00ff9c"
+yellow  = "#ffe600"
+blue    = "#00bbff"
+magenta = "#ff00ff"
+cyan    = "#00f7ff"
+white   = "#c7d5f0"
+
+[colors.bright]
+black   = "#2a2f3a"
+red     = "#ff4d8d"
+green   = "#5cffc0"
+yellow  = "#fff066"
+blue    = "#4dd2ff"
+magenta = "#ff4dff"
+cyan    = "#4dfcff"
+white   = "#ffffff"
+
+# ========
+# Extras
+# ========
+
+[terminal]
+osc52 = "CopyPaste"
+
+# Enable live config reload: Ctrl + Shift + R
+[general]
+live_config_reload = true
