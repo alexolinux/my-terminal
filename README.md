@@ -83,7 +83,9 @@ Ctrl+a r
 
 ### 4 My installed plugins
 
-These are my favorite tmux plugins. Feel free to find tmux plugins that suit your needs here: <https://github.com/tmux-plugins>
+These are my favorite tmux plugins. For more details about my Tmux plugins, please refer to **[Plugins Document](PLUGINS.md)**
+
+Feel free to find tmux plugins that suit your needs here: <https://github.com/tmux-plugins>
 
 #### Install the plugins
 
