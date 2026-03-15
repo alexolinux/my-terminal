@@ -34,8 +34,8 @@ bindings = [
     ("tmux-resurrect", "Prefix + Ctrl + r", "Restore session"),
     ("tmux-named-snapshot", "Prefix + S", "Save a named snapshot"),
     ("tmux-named-snapshot", "Prefix + R", "Restore a named snapshot"),
+    ("tmux-named-snapshot", "Prefix + g", "List and restore snapshots (FZF)"),
     ("tmux-yank", "y (in copy mode)", "Copy selection to system clipboard"),
-    ("tmux-copycat", "Prefix + /", "Regex search in history"),
     ("tmux-menus", "Right-click", "Open interactive popup menu"),
 ]
 

@@ -179,6 +179,18 @@ Prefix + R
 
 Choose a snapshot to restore.
 
+#### Advanced: FZF Restore
+A custom script provides an interactive menu to search and restore snapshots.
+
+**Keybinding:**
+```shell
+Prefix + g
+```
+
+**Requirements:**
+- `fzf` installed on the system.
+- `fzf-tmux` utility (included with `fzf`).
+
 ## Clipboard
 
 ### tmux-plugins/tmux-yank
@@ -211,44 +223,6 @@ y
 ```
 
 The text will automatically be copied to the **system clipboard**.
-
-## Searching
-
-### tmux-plugins/tmux-copycat
-
-Repository: https://github.com/tmux-plugins/tmux-copycat
-
-#### Purpose of tmux-copycat
-
-Adds powerful **regex search inside tmux history**.
-
-You can quickly jump to:
-
-* URLs
-* IP addresses
-* Git SHAs
-* file paths
-* numbers
-
-#### How to Use tmux-copycat
-
-Start a search:
-
-```shell
-Prefix + /
-```
-
-Choose a pattern:
-
-Example:
-
-```shell
-url
-ip
-sha
-```
-
-Then navigate through matches.
 
 ## Network Monitoring
 
@@ -411,10 +385,9 @@ tmux new -s work
 
 This plugin set provides:
 
-* automatic workspace persistence
+* automatic workspace persistence (Standard & FZF)
 * clipboard integration
 * status monitoring
-* powerful search
 * better scrolling
 * popup menus
 * plugin management
