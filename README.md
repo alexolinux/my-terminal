@@ -258,7 +258,6 @@ Mouse allows:
 - pane switching
 - scrolling
 
-
 ## Performance Improvements
 
 This configuration includes optimizations:
@@ -273,19 +272,33 @@ This configuration includes optimizations:
 Create a session
 
 ```shell
-tmux new -s dev
+tmux new -s devops
+```
+
+Create a detached session
+
+```shell
+tmux new -s devops -d
 ```
 
 Attach session
 
 ```shell
-tmux attach -t dev
+tmux attach -t devops
 ```
 
 List sessions
 
 ```shell
 tmux ls
+```
+
+## Extra TMUX Help Info
+
+If you want to see all the keybindings, you can run the following command:
+
+```shell
+python3 helpmux.py
 ```
 
 ## 🔳 Recommended Terminal
