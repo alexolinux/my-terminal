@@ -30,6 +30,8 @@ set -g @plugin 'github_user/your-plugin'
 Ctrl + a r
 ```
 
+*Wait for a few seconds. Tmux will display a promt to confirm the reload.*
+
 3. Install the plugin:
 
 ```shell
