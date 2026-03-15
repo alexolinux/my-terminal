@@ -160,7 +160,7 @@ Useful for:
 #### Save Snapshot
 
 ```shell
-Prefix + Ctrl-s
+Prefix + S
 ```
 
 Then type a snapshot name.
@@ -174,7 +174,7 @@ backend-dev
 #### Restore Snapshot
 
 ```shell
-Prefix + Ctrl-l
+Prefix + R
 ```
 
 Choose a snapshot to restore.

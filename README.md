@@ -226,6 +226,22 @@ Ctrl+Shift+C copy
 Ctrl+Shift+V paste
 ```
 
+### Plugin Keybindings
+
+| Key | Action | Plugin |
+| --- | --- | --- |
+| Ctrl+a S | Save named snapshot (prompt for name) | tmux-named-snapshot |
+| Ctrl+a R | Restore named snapshot (prompt for name) | tmux-named-snapshot |
+| Ctrl+a Ctrl+s | Save tmux session | tmux-resurrect |
+| Ctrl+a Ctrl+r | Restore tmux session | tmux-resurrect |
+| Ctrl+a / | Regex search in pane history | tmux-copycat |
+| Ctrl+a Ctrl+f | Search for file paths | tmux-copycat |
+| Ctrl+a Ctrl+g | Search git status files | tmux-copycat |
+| Ctrl+a Alt+h | Search SHA hashes | tmux-copycat |
+| Ctrl+a Ctrl+u | Search URLs | tmux-copycat |
+| Ctrl+a Ctrl+d | Search numbers | tmux-copycat |
+| Ctrl+a Alt+i | Search IP addresses | tmux-copycat |
+
 ## Mouse Features
 
 Mouse support is enabled.
