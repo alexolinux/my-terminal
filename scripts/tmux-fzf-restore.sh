@@ -28,6 +28,5 @@ choice=$(find "$SNAPSHOT_DIR" -maxdepth 1 -type l ! -name "last" -printf "%f\n" 
 
 if [ -n "$choice" ]; then
     # Use the existing plugin script to restore the selected snapshot
-    # This ensures consistency with symlink handling logic
     bash "$HOME/.tmux/plugins/tmux-named-snapshot/scripts/restore-snapshot.sh" "$choice"
 fi
