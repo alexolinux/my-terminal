@@ -72,10 +72,10 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 [tmux.conf](./conf/tmux.conf)
 
 ```shell
-cp tmux.conf ~/.tmux.conf
+cp ./conf/tmux.conf ~/.tmux.conf
 ```
 
-Reload the configuration:
+Reload the configuration (if you are using tmux (already active)):
 
 ```shell
 Ctrl+a r
