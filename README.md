@@ -85,6 +85,39 @@ Ctrl+a r
 
 These are my favorite tmux plugins. Feel free to find tmux plugins that suit your needs here: <https://github.com/tmux-plugins>
 
+#### Install the plugins
+
+1. Start tmux (or reload your config):
+
+```shell
+# start a new tmux session (or attach to an existing one)
+tmux new -s mysession
+
+# (inside tmux) reload config
+Ctrl+a r
+```
+
+2. Install all configured plugins via TPM:
+
+```shell
+# inside tmux
+Ctrl+a I
+```
+
+3. Verify plugins are installed by checking the plugin directory:
+
+```shell
+ls ~/.tmux/plugins
+```
+
+> ✅ This installs **all** plugins configured in your `~/.tmux.conf` at once.
+
+If you prefer installing plugins from the shell (outside tmux), you can run:
+
+```shell
+~/.tmux/plugins/tpm/bin/install_plugins
+```
+
 #### Plugins Included
 
 | Plugin | Purpose |

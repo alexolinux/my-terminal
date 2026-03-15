@@ -14,10 +14,34 @@ TPM is the **plugin manager for tmux**. It installs, updates, and removes plugin
 
 #### Install Plugins
 
-Inside tmux:
+TPM installs **all plugins listed in your `~/.tmux.conf`** under `set -g @plugin ...`.
+
+To add a plugin:
+
+1. Add a line like:
+
+```tmux
+set -g @plugin 'github_user/your-plugin'
+```
+
+2. Reload tmux config:
+
+```shell
+Ctrl + a r
+```
+
+3. Install the plugin:
 
 ```shell
 Ctrl + a I
+```
+
+This will clone each plugin into `~/.tmux/plugins/` and load it immediately.
+
+To remove a plugin, delete the `set -g @plugin ...` line from your config and run:
+
+```shell
+Ctrl + a Alt + u
 ```
 
 #### Update Plugins
