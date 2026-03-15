@@ -41,7 +41,7 @@ bindings = [
 
 def print_table():
     print(f"\n{Colors.BOLD}{Colors.CYAN}╭──────────────────────────────────────────────────╮{Colors.RESET}")
-    print(f"{Colors.BOLD}{Colors.CYAN}│              Tmux BindKeys Cheat Sheet           │{Colors.RESET}")
+    print(f"{Colors.BOLD}{Colors.CYAN}│          Tmux: my-terminal Cheat Sheet           │{Colors.RESET}")
     print(f"{Colors.BOLD}{Colors.CYAN}╰──────────────────────────────────────────────────╯{Colors.RESET}\n")
     
     col_scope_width = max(len(b[0]) for b in bindings) + 2
