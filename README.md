@@ -309,6 +309,11 @@ Linux Native:
 - [Gnome Terminal](https://help.gnome.org/gnome-terminal/)
 - [KDE Terminal](https://apps.kde.org/en-gb/konsole/)
 
+Non-Linux Terminals:
+
+- [Windows Terminal](https://www.microsoft.com/pt-mz/p/windows-terminal/9n0dx20hk701)
+- [iTerm2](https://iterm2.com/)
+
 Additional Terminals:
 
 - [Terminator](https://gnome-terminator.org/)
