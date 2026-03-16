@@ -30,6 +30,12 @@ The configuration emphasizes:
 - Lightweight status monitoring
 - Plugin extensibility
 
+## Requirements
+
+- Python3+
+- tmux
+- fzf/fzf-tmux
+
 ## Installation
 
 ### 1 Install tmux
@@ -236,6 +242,15 @@ Ctrl+Shift+V paste
 | Ctrl+a Ctrl+s | Save tmux session | tmux-resurrect |
 | Ctrl+a Ctrl+r | Restore tmux session | tmux-resurrect |
 
+> There is an extra implementation for `tmux-named-snapshot` plugin. First, you need to copy the `tmux-fzf-restore.sh` script to the plugin folder:
+
+```shell
+#Confirm you have fzf package installed.
+cp scripts/tmux-fzf-restore.sh ~/.tmux/plugins/tmux-named-snapshot/scripts/
+```
+
+Once that's done, you can choose which restore point to use with the following shortcut (Inside of tmux sessions): `ctrl+a g`
+
 ## Mouse Features
 
 Mouse support is enabled.
@@ -289,7 +304,7 @@ tmux ls
 
 ## Extra TMUX Help Info
 
-If you want to see all the keybindings, you can run the following command:
+If you want to see all the keybindings, you can run the following command (or add this `helpmux.py` in your ${PATH} bin):
 
 ```shell
 python3 scripts/helpmux.py
