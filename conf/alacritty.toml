@@ -39,6 +39,7 @@ multiplier = 3
 # =========================
 
 # Get Download: https://fonts.google.com/specimen/JetBrains+Mono
+# If you are using WSL, install your fonts in Windows.
 [font]
 size = 14
 builtin_box_drawing = true
