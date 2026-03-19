@@ -27,13 +27,14 @@ padding = { x = 12, y = 10 }
 dynamic_padding = true
 resize_increments = true
 option_as_alt = "Both"
+dynamic_title = true
 
 # =========================
 # Scrolling
 # =========================
 
 [scrolling]
-history = 65000
+history = 100000
 multiplier = 3
 
 # =========================
@@ -135,6 +136,17 @@ action = "DecreaseFontSize"
 key = "Key0"
 mods = "Control"
 action = "ResetFontSize"
+
+# Additional keybindings for better workflow
+[[keyboard.bindings]]
+key = "N"
+mods = "Control|Shift"
+action = "SpawnNewInstance"
+
+[[keyboard.bindings]]
+key = "Q"
+mods = "Control|Shift"
+action = "Quit"
 
 # =========================
 # URL handling
