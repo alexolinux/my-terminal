@@ -75,6 +75,10 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ### 3 My Tmux Configuration
 
+```shell
+git clone https://github.com/alexolinux/my-terminal.git
+```
+
 [tmux.conf](./conf/tmux.conf)
 
 ```shell
