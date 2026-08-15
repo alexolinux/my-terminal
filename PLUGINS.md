@@ -18,13 +18,13 @@ TPM installs **all plugins listed in your `~/.tmux.conf`** under `set -g @plugin
 
 To add your plugins:
 
-1. Add a line like:
+##### 1. Add a line like:
 
 ```tmux
 set -g @plugin 'github_user/your-plugin'
 ```
 
-2. Reload tmux config:
+##### 2. Reload tmux config:
 
 ```shell
 Ctrl + a r
@@ -32,7 +32,7 @@ Ctrl + a r
 
 *Wait for a few seconds. Tmux will display a promt to confirm the reload.*
 
-3. Install the plugin:
+##### 3. Install the plugin:
 
 ```shell
 Ctrl + a I
@@ -180,16 +180,20 @@ Prefix + R
 Choose a snapshot to restore.
 
 #### Advanced: FZF Restore
+
 A custom script provides an interactive menu to search and restore snapshots.
 
 **Keybinding:**
+
 ```shell
 Prefix + g
 ```
 
 **Requirements:**
-- `fzf` installed on the system.
-- `fzf-tmux` utility (included with `fzf`).
+
+* `fzf` installed on the system.
+
+* `fzf-tmux` utility (included with `fzf`).
 
 ## Clipboard
 
