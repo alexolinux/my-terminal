@@ -82,6 +82,7 @@ git clone https://github.com/alexolinux/my-terminal.git
 [tmux.conf](./conf/tmux.conf)
 
 ```shell
+cd my-terminal
 cp ./conf/tmux.conf ~/.tmux.conf
 ```
 
