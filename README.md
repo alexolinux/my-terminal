@@ -120,7 +120,7 @@ Ctrl+a I
 3. Verify plugins are installed by checking the plugin directory:
 
 ```shell
-ls ~/.tmux/plugins
+ls -lrt ~/.tmux/plugins
 ```
 
 > ✅ This installs **all** plugins configured in your `~/.tmux.conf` at once.
